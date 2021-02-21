@@ -1,0 +1,83 @@
+/* ****************************************** */
+/*         Font Styles configuration file     */
+/*            Set font defaults here          */
+/* ****************************************** */
+
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: none;
+    color: var(--primaryTc);
+}
+
+p {
+    font-size: 100%;
+}
+
+a {
+  color: var(--smartBlack);
+  text-decoration: none;
+  transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+}
+a:hover,
+a:focus {
+    color: var(--smartGold);
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: normal;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--smartBlack);
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 30px;
+    color: var(--primaryTc);
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+strong {
+  font-weight: 700;
+}
