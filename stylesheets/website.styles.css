@@ -324,7 +324,7 @@ cite {
 }
 
 .faculties li > div::after {
-  background-image: url(../../images/testimonial-clip-icon.png);
+  background-image: url(../images/testimonial-clip-icon.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
