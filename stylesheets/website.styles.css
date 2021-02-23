@@ -498,6 +498,32 @@ blockquote.EN:after{
     background-color: #fcd21c;
 }
 
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
 @media (max-width: 1440px){
     body{
         font-size: 16px;
@@ -510,8 +536,8 @@ blockquote.EN:after{
 @media ( max-width: 1200px ){
     
 
-    li.s-box.box .inner-box {
-        height: 250px;
+    .inner-box {
+        height: 300px !important;
     }
 
     .call-us-button .icon {
@@ -547,12 +573,12 @@ blockquote.EN:after{
         max-width: 100%;
     }
 
-    li.s-box.box .inner-box {
-        height: auto;
+    .inner-box {
+        height: auto !important;
     }
 }
 
-@media ( max-width: 1200px ){
+@media ( max-width: 767px ){
     
 
     nav {
@@ -604,7 +630,7 @@ blockquote.EN:after{
     }
 }
 
-@media ( max-width: 1200px ){
+@media ( max-width: 550px ){
     
 
     li.s-box.box {
@@ -612,4 +638,52 @@ blockquote.EN:after{
     }
     
     .h-li ul > li {height: 220px;}
+
+    
+    .inner-box {
+        font-size: 13px !important;
+    }
+
+    .heading h2::before {
+        width: 70px;
+        right: -70px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    span.marks {
+        max-width: 33%;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    cite {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    small {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .faculties li {
+        padding: 10px;
+    }
+
+    .main-content > div {
+        padding-bottom: 50px;
+    }
+
+    .section-two.last-section {
+        padding-top: 0px !important;
+    }
+
+    .some-quote {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 217px;
+    }
 }
