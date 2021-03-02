@@ -23,6 +23,7 @@
 
 .logo-container a span {
     display: block;
+max-width: 100px;
 }
 
 .nav--container {
